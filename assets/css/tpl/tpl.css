@@ -1,0 +1,210 @@
+/* SOCIAL MEDIA */
+	.social-media{margin: var(--social-media_margin, 1rem 0);}
+	.social-media li{
+		background-color: var(--social-media_background-ic, transparent);
+		padding: var(--social-media_padding-ic, .6rem);
+		margin: var(--social-media_margin-ic, 0);
+	}
+	.social-media li:hover{background-color: var(--social-media_background-ic_hover, transparent);}
+	.social-media li a{}
+	.social-media li a i{font-size: var(--social-media_font-size, 1.2rem);}
+	.social-media .ic-twitter{color: var(--social-media_color_ic, hsl(197,100%,47%));}
+	.social-media .ic-gplus{color: var(--social-media_color_ic, hsl(7,64%,52%));}
+	.social-media .ic-facebook{color: var(--social-media_color_ic, hsl(221,44%,41%));}
+	.social-media .ic-instagram{color: var(--social-media_color_ic, hsl(352,59%,57%));}
+	.social-media .ic-youtube{color: var(--social-media_color_ic, hsl(358,79%,45%));}
+	.social-media .ic-linkedin{color: var(--social-media_color_ic, hsl(201,100%,35%));}
+	.social-media .ic-skype{color: var(--social-media_color_ic, hsl(196,100%,47%));}
+	.social-media .ic-whatsapp{color: var(--social-media_color_ic, hsl(142,70%,49%));}
+	.social-media .ic-twitch{color: var(--social-media_color_ic, hsl(261,43%,45%));}
+	.social-media .ic-blogger{color: var(--social-media_color_ic, hsl(14,100%,57%));}
+	.social-media .ic-github{color: var(--social-media_color_ic, hsl(0,0%,0%));}
+	.social-media .ic-slack{color: var(--social-media_color_ic, hsl(189,61%,69%));}
+	.social-media .ic-snapchat{color: var(--social-media_color_ic, hsl(59,100%,50%));}
+	.social-media .ic-steam{color: var(--social-media_color_ic, hsl(0,0%,0%));}
+	.social-media .ic-viber{color: var(--social-media_color_ic, hsl(276,53%,32%));}
+	/* HOVER */
+	.social-media .ic-twitter:hover{color: var(--social-media_color_ic-hover, hsl(197,100%,47%));}
+	.social-media .ic-gplus:hover{color: var(--social-media_color_ic-hover, hsl(7,64%,52%));}
+	.social-media .ic-facebook:hover{color: var(--social-media_color_ic-hover, hsl(221,44%,41%));}
+	.social-media .ic-instagram:hover{color: var(--social-media_color_ic-hover, hsl(352,59%,57%));}
+	.social-media .ic-youtube:hover{color: var(--social-media_color_ic-hover, hsl(358,79%,45%));}
+	.social-media .ic-linkedin:hover{color: var(--social-media_color_ic-hover, hsl(201,100%,35%));}
+	.social-media .ic-skype:hover{color: var(--social-media_color_ic-hover, hsl(196,100%,47%));}
+	.social-media .ic-whatsapp:hover{color: var(--social-media_color_ic-hover, hsl(142,70%,49%));}
+	.social-media .ic-twitch:hover{color: var(--social-media_color_ic-hover, hsl(261,43%,45%));}
+	.social-media .ic-blogger:hover{color: var(--social-media_color_ic-hover, hsl(14,100%,57%));}
+	.social-media .ic-github:hover{color: var(--social-media_color_ic-hover, hsl(0,0%,0%));}
+	.social-media .ic-slack:hover{color: var(--social-media_color_ic-hover, hsl(189,61%,69%));}
+	.social-media .ic-snapchat:hover{color: var(--social-media_color_ic-hover, hsl(59,100%,50%));}
+	.social-media .ic-steam:hover{color: var(--social-media_color_ic-hover, hsl(0,0%,0%));}
+	.social-media .ic-viber:hover{color: var(--social-media_color_ic-hover, hsl(276,53%,32%));}
+/* SOCIAL MEDIA */
+
+/* BUTTONS */
+	[class*="-ic"]{
+		-webkit-transition: all .9s ease;
+		-moz-transition: all .9s ease;
+		-ms-transition: all .9s ease;
+		-o-transition: all .9s ease;
+		transition: all .9s ease;
+		border: none;
+		border-radius: 2px;
+		font-family: var(--regular);
+		padding: .6rem 1rem;
+		letter-spacing: .03rem;
+		text-shadow: 1px 1px 0 hsla(0, 0%, 37%, 0.2);
+	}
+	[class*="-ic"]::before{
+		font-family: 'Font Awesome\ 5 Free';
+		font-weight: 900;
+		font-size: .8rem;
+		margin: 0 .4rem 0 0;
+	}
+	/* REFRESH BUTTON */
+		.refresh-ic{
+			background-color: var(--color-refresh-bg, hsla(0, 0%, 95%, 1));
+			color: var(--color-refresh, hsla(0, 0%, 36%, 1));
+		}
+		.refresh-ic:hover{
+			background-color: var(--color-refresh-bg_hover, hsla(0, 0%, 88%, 1));
+			color: var(--color-refresh_hover, hsla(0, 0%, 22%, 1));
+		}
+		.refresh-ic::before{content: '\f2f1';}
+	/* / REFRESH BUTTON */
+
+	/* CHECKOUT BUTTON */
+		.checkout-ic{
+			background-color: var(--color-checkout-bg, hsla(137, 49%, 52%, 1));
+			color: var(--color-checkout, hsla(0, 0%, 100%, 1));
+		}
+		.checkout-ic:hover{
+			background-color: var(--color-checkout-bg_hover, hsla(137, 49%, 42%, 1));
+			color: var(--color-checkout_hover, hsla(0, 0%, 100%, 1));
+		}
+		.checkout-ic::before{content: '\f07a';}
+	/* / CHECKOUT BUTTON */
+
+	/* DANGER BUTTON */
+		.danger-ic{
+			background-color: var(--color-danger-bg, hsla(1, 82%, 63%, 1));
+			color: var(--color-danger, hsla(0, 0%, 100%, 1));
+		}
+		.danger-ic:hover{
+			background-color: var(--color-danger-bg_hover, hsla(1, 82%, 53%, 1));
+			color: var(--color-danger_hover, hsla(0, 0%, 100%, 1));
+		}
+		.danger-ic::before{content: '\f2ed';}
+	/* / DANGER BUTTON */
+
+	/* INFO BUTTON */
+		.info-ic{
+			background-color: var(--color-info-bg, hsla(196, 63%, 49%, 1));
+			color: var(--color-info, hsla(0, 0%, 100%, 1));
+		}
+		.info-ic:hover{
+			background-color: var(--color-info-bg_hover, hsla(196, 63%, 35%, 1));
+			color: var(--color-info_hover, hsla(0, 0%, 100%, 1));
+		}
+		.info-ic::before{content: '\f05a';}
+	/* / INFO BUTTON */
+/* / BUTTONS */
+
+/* HEADER MAIN */
+	.header-main{padding: 1rem 0;}
+	.header-main a{color: hsla(0, 0%, 0%, .7);}
+	.header-main a:hover{color: hsla(0, 0%, 0%, .8);}
+	.header-main a h1{
+		font-family: var(--light);
+		font-size: 1rem;
+		font-weight: normal;
+	}
+/* / HEADER MAIN */
+
+/* BANNER LOOK DAY */
+	.banner-look-day{
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		border-radius: 3px;
+		position: relative;
+		max-height: 380px; height: 100vh;
+	}
+	/* INFO EXPOSITOR */
+		#nav-banner{padding: 1rem;}
+		#nav-banner .bt-redirect-campaign{
+			background-color: hsla(0, 0%, 0%, .6);
+			border-radius: 2px;
+			padding: .6rem 1.4rem;
+			margin: 0 0 .4rem 0;
+		}
+		#nav-banner .bt-redirect-campaign:hover{background-color: hsla(0, 0%, 0%, .8);}
+		#nav-banner .bt-redirect-campaign p{
+			color: hsla(0, 100%, 100%, 1);
+			font-family: var(--regular);
+			font-size: .7rem;
+			text-transform: uppercase;
+		}
+		#nav-banner .bt-redirect-campaign i{color: hsla(0, 100%, 100%, 1);}
+		#info-expositor-banner{
+			background-color: hsla(0, 0%, 0%, 1);
+			border-radius: 2px;
+			opacity: .6;
+			padding: .5rem;
+			/* position: absolute;
+			bottom: 1rem; right: 1rem; */
+		}
+		#info-expositor-banner:hover{opacity: 1;}
+		#info-expositor-banner a{}
+		#info-expositor-banner a figure{}
+		#info-expositor-banner a figure img{max-width: 20px; width: 100vw;}
+		#info-expositor-banner a figure figcaption{color: hsla(0, 100%, 100%, 1);}
+		#info-expositor-banner a figure figcaption p{
+			font-family: var(--light);
+			font-size: .8rem;
+			margin: 0 0 0 .4rem;
+		}
+	/* /INFO EXPOSITOR */
+/* / BANNER LOOK DAY */
+
+/* FOOTER MAIN */
+	#footer-main{
+		background-color: hsla(0, 0%, 0%, .7);
+		color: hsla(0, 100%, 100%, .8);
+		font-family: var(--medium);
+		font-size: .7rem;
+		padding: 1rem;
+		text-transform: uppercase;
+		margin: 1rem 0 0 0;
+	}
+	#footer-main small{}
+	#footer-main small span{font-family: var(--bold);}
+	#footer-main a{
+		color: hsla(0, 100%, 100%, .8);
+		margin: 0 0 0 .8rem;
+	}
+	#footer-main a:hover{color: hsla(0, 100%, 100%, 1);}
+	#footer-main a p{}
+/* / FOOTER MAIN */
+
+/* Tablet*/
+@media (max-width: 1024px){}
+/* Mobile */
+@media (max-width: 812px) {
+		#footer-main small{
+			-webkit-flex: 1 100%;
+			-ms-flex: 1 100%;
+			flex: 1 100%;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			text-align: center;
+			margin: 1rem 0 0 0;
+		}
+		#nav-footer{
+			justify-content: center;
+		}
+		#footer-main a{margin: .4rem;}
+}
+/*Navegador Mozilla*/
+@-moz-document url-prefix(){}

@@ -1,0 +1,10 @@
+/*Ind*/
+@import "ind/ind.min.css";
+/*Font-icon*/
+@import "fonts/font-awesome.min.css";
+/*Template*/
+@import "tpl/tpl.css";
+/*Galeria*/
+@import "galeria/owl.carousel.min.css";
+@import "galeria/owl.theme.default.min.css";
+@import "galeria/anime-galeria.css";

@@ -1,0 +1,56 @@
+:root{
+	/*------------------------------------------------ Colors*/
+	--color-default: hsla(354, 70%, 66%, 1);
+	--color-default_hover: hsla(354, 70%, 56%, 1);
+	--color-green: hsla(155, 31%, 62%, 1);
+	--color-green_hover: hsla(155, 31%, 50%, 1);
+	/* Link */
+	--color-link: hsl(223, 64%, 63%); /* Blue Clear */
+	--color-link_hover: hsl(223, 68%, 52%); /* Blue Dark */
+	/* Selection */
+	--color-selection:;
+	--color-selection_bg:;
+	/* Caret */
+	--color-caret: hsl(13, 100%, 50%);
+	/* Galeria */
+	--color-dots_bg:;
+	/*------------------------------------------------ Fonts*/
+	--bold: ind-bold;
+	--light: ind-light;
+	--heavy: ind-heavy;
+	--medium: ind-medium;
+	--regular: ind-regular;
+	--thin: ind-thin;
+	/*------------- Link A*/
+	--text-decoration: none;
+	/*------------------------------------------------ Social Media*/
+	--social-media_background-ic:;
+	--social-media_background-ic_hover:;
+	--social-media_margin: 0;
+	--social-media_margin-ic:;
+	--social-media_padding-ic:;
+	--social-media_font-size:;
+	--social-media_color_ic: hsla(0, 0%, 0%, .7);
+	--social-media_color_ic-hover:;
+	/*------------------------------------------------ Buttons*/
+	/* REFRESH */
+	--color-refresh-bg:;
+	--color-refresh-bg_hover:;
+	--color-refresh:;
+	--color-refresh_hover:;
+	/* CHECKOUT */
+	--color-checkout-bg:;
+	--color-checkout-bg_hover:;
+	--color-checkout:;
+	--color-checkout_hover:;
+	/* DANGER */
+	--color-danger-bg:;
+	--color-danger-bg_hover:;
+	--color-danger:;
+	--color-danger_hover:;
+	/* INFO */
+	--color-info-bg:;
+	--color-info-bg_hover:;
+	--color-info:;
+	--color-info_hover:;
+}
